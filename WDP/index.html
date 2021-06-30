@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+       
+         @media (min-width: 992px) and (max-width: 1200px) {
+            div > div > div > h3 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            div > div > div > h3 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            div > div > div > h3 {
+                font-size: 1.3em;
+            }
+        }
+        .parallax1 {
+    /* The image used */
+    background-image: url("images/bg1.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("images/bg2.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+    </style>
+</head>
+<body style="background-color:black;">
+
+    <div class="topnav" id="myTopnav" >
+        <a href="index.html" >Home</a>
+        <a href="ML.html">Machine Learning</a>
+        <a href="DV.html">Data Visualization</a>
+        <a href="worldMap.html">World Map</a>
+        <a href="about.html">Contact and About</a>
+
+
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <section class="section">
+        <div class="masthead">
+            <h1><span>Data Science</span></h1>
+            <p><span>Data Scientist: The Sexiest Job of the 21st Century. Thomas H. Davenport and D.J. Patil, 2012.</span></p>
+        </div>
+    </section>
+
+    <div class="parallax1"></div>
+
+
+    <!--T1 to 6 images-->
+    <div class="container" style="margin:40px;">
+
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t1.png" width="400" height="280">
+                    <figcaption>
+                        Artificial intelligence (AI) is the ability of a  <br />
+                        computer program or a machine to think and learn.<br />
+                        It is also a field of study which tries to make  <br />
+                        computers "smart". They work on their own without <br />
+                        being encoded with commands.
+                        <div>
+                            <button type="button" class="btn btn-default" onclick="loadAI()">Read More>></button>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t2.png" width="400" height="280">
+                    <figcaption>
+                        Statistics is the discipline that concerns the collection, <br />
+                        organization, displaying, analysis, interpretation and <br />
+                        presentation of data.
+                    <div>
+                    <button type="button" class="btn btn-default" onclick="loadstats()">Read More>></button>
+                     </div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t3.png" width="400" height="280">
+                    <figcaption>
+                        Machine Learning is ther scientific study of algorithms and<br />
+                        statistical models that computers use to perform a specific <br />
+                        task effectively using explicit instructions, relying on <br />
+                        patterns and inference instead.
+                        <div>
+                            <button type="button" class="btn btn-default" onclick="loadML()">Read More>></button>
+                            
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t4.png" width="400" height="280">
+                    <figcaption>
+                        A programming language is a vocabulary and set of <br />
+                        grammatical rules for instructing a computer or <br />
+                        computing device to perform <br />
+                        specific tasks. The term programming language <br />
+                        usually refers to<br />
+                        high-level languages, such as C, C++,Java etc.
+                        <div>
+                            <button type="button" class="btn btn-default" onclick="loadPL()">Read More>></button>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t5.png" width="400" height="280">
+                    <figcaption>
+                        Data analysis is a process of inspecting, cleansing,<br />
+                        transforming and modeling data with the goal of <br />
+                        discovering useful information, informing conclusions <br />
+                        and supporting decision-making.
+                        <div>
+                            <button type="button" class="btn btn-default" onclick="loadDA()">Read More>></button>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <figure>
+                    <img src="images/t6.png" width="400" height="280">
+                    <figcaption>
+                        Data visualization is the graphical representation<br />
+                        of information and data. By using visual elements <br />
+                        like charts, graphs, and maps, data visualization <br />
+                        tools provide an accessible way to see and understand<br />
+                        trends, outliers, and patterns in data.
+                        <div>
+                            <button type="button" class="btn btn-default" onclick="loadDV()">Read More>></button>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Load a new document
+        function loadAi() { window.location.assign(" https://towardsdatascience.com/role-of-data-science-in-artificial-intelligence-950efedd2579") }
+        function loadstats() { window.location.assign(" https://elitedatascience.com/learn-statistics-for-data-science") }
+        function loadML() { window.location.assign(" https://www.edx.org/course/machine-learning-data-science-analytics-1") }
+        function loadPL() { window.location.assign(" https://medium.com/datadriveninvestor/top-6-data-science-programming-languages-for-2019-39ba1b6819a8") }
+        function loadDA() { window.location.assign("https://towardsdatascience.com/tagged/data-analysis") }
+        function loadDV() { window.location.assign("https://towardsdatascience.com/data-visualization/home") }
+
+
+    </script>
+
+
+
+    <div class="parallax2"></div>
+    <div style="float:left;padding:12px;">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X3paOmcrTjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0jQ25PSyb_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div class="footer">
+        Posted by: XYZ  Contact information: <a href="mailto:someone@example.com">someone@example.com</a> <a href="about.html">contact and about</a>  <a href="https://twitter.com/">Twitter</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+
+
+    </div>
+
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>

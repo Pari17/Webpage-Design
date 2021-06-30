@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        
+
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+            div > div > div > h3 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            div > div > div > h3 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            div > div > div > h3 {
+                font-size: 1.3em;
+            }
+        }
+
+       
+        body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="ML.html">Machine Learning</a>
+        <a href="DV.html">Data Visualization</a>
+        <a href="worldMap.html">World Map</a>
+        <a href="about.html">Contact and About</a>
+
+
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <p style="color:black;">-----------------<br /></p>
+    <h1 class="glow">Contact and About</h1>
+    <h2 style="color:aliceblue;">About</h2>
+    <p style="color:aliceblue;">This website is designed to give an overview of the Data Science field and different pathways to start a career.<br /></p>
+    <h2 style="color:aliceblue;">Contact Information</h2>
+    <p style="color:aliceblue;">
+        We can be reached at : <br>
+        Phone Number: +61364793xxx<br>
+        Email ID: xyz@abc.com<br>
+        <a href="https://twitter.com/">Twitter</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+    </p>
+
+    <!--NOTE THIS FORM DOES NOT WORK JUST ADDED BECAUSE IT LOOKS COOL-->
+    <form action="action_page.php">
+        <div class="container">
+            <h2 style="color:aliceblue;">Subscribe to our Newsletter</h2>
+            <p style="color:aliceblue;">Doesn`t actually work but looks cool</p>
+        </div>
+
+        <div class="container" style="background-color:white">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+        </div>
+
+        <div class="container">
+            <input type="submit" value="Subscribe">
+
+        </div>
+    </form>
+    <IMG SRC="images/dataAnalytics.gif" style="width:100%; height:50%;">
+
+
+
+    <div class="footer">
+        <p>
+            Posted by: XYZ  Contact information: <a href="mailto:someone@example.com">someone@example.com</a> <a href="about.html">contact and about</a>  <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+        </p>
+
+
+    </div>
+
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
