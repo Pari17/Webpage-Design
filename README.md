@@ -1,4 +1,4 @@
-# Webpage-Design
+# Webpage Design
 The webpage is created using responsive design that showcases the following:
 1. Parallax scrolling technique.
 2. Links webpage to other hyperlinks and videos.
